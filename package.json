@@ -3,6 +3,7 @@
   "version": "2.4.2",
   "description": "Simplified SPARQL HTTP request client",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "standard && nyc --reporter=lcov mocha",
     "docs:serve": "docsify serve docs"

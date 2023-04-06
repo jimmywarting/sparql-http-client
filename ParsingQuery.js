@@ -1,5 +1,5 @@
-const { array } = require('get-stream')
-const StreamQuery = require('./StreamQuery')
+import { array } from 'get-stream'
+import StreamQuery from './StreamQuery.js'
 
 /**
  * Extends StreamQuery by materialising the SPARQL response streams
@@ -44,4 +44,4 @@ class ParsingQuery extends StreamQuery {
   }
 }
 
-module.exports = ParsingQuery
+export default ParsingQuery

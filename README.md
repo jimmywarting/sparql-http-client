@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/sparql-http-client.svg)](https://www.npmjs.com/package/sparql-http-client)
 
 SPARQL client for easier handling of SPARQL Queries and Graph Store requests.
-The [SPARQL Protocol](https://www.w3.org/TR/sparql11-protocol/) is used for [SPARQL Queries](https://www.w3.org/TR/sparql11-query/) and [SPARQL Updates](https://www.w3.org/TR/sparql11-update/). 
+The [SPARQL Protocol](https://www.w3.org/TR/sparql11-protocol/) is used for [SPARQL Queries](https://www.w3.org/TR/sparql11-query/) and [SPARQL Updates](https://www.w3.org/TR/sparql11-update/).
 The [SPARQL Graph Store Protocol](https://www.w3.org/TR/sparql11-http-rdf-update/) is used to manage Named Graphs.
 
 ## Getting started example
@@ -12,7 +12,7 @@ The [SPARQL Graph Store Protocol](https://www.w3.org/TR/sparql11-http-rdf-update
 TL;DR; the package exports a `StreamClient` class which run SPARQL queries on an endpoint.
 
 ```javascript
-const SparqlClient = require('sparql-http-client')
+import SparqlClient from 'sparql-http-client'
 
 const endpointUrl = 'https://query.wikidata.org/sparql'
 const query = `
